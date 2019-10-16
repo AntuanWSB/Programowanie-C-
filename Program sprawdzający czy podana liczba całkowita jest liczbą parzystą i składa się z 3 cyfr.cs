@@ -1,10 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApplication2
+namespace Program_1
 {
     class Program
     {
@@ -17,7 +13,7 @@ namespace ConsoleApplication2
             if (a % 2 == 0)
             {
                 Console.WriteLine("\nLiczba parzysta");
-                if (a <= 100)
+                if (a >= 100)
                 {
                     if (a <= 999) Console.WriteLine("\nLiczba jest 3-cyfrowa");
                     else Console.WriteLine("\nLiczba nie jest 3-cyfrowa");
