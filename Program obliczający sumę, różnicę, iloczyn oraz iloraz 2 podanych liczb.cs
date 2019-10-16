@@ -12,8 +12,7 @@ namespace Program_1
             a = Double.Parse(Console.ReadLine());
             Console.Write("\nPodaj liczbę b: ");
             b = Double.Parse(Console.ReadLine());
-            Console.WriteLine("\n\nPodałeś a=" + a + " oraz b=" + b);
-            Console.WriteLine("\na={0} b={1}", a, b);
+            Console.WriteLine("\n\nPodałeś a={0} oraz b={1}", a, b);
             double suma, roznica, iloczyn, iloraz;
             suma = a + b;
             roznica = a - b;
@@ -22,7 +21,7 @@ namespace Program_1
             Console.WriteLine("\n\nSuma a+b=" + suma);
             Console.WriteLine("\nRóżnica a-b=" + roznica);
             Console.WriteLine("\nIloczyn a*b=" + iloczyn);
-            Console.WriteLine("\nIloraz a/b=" + iloraz + "\n");
+            Console.WriteLine("\nIloraz a/b={0}\n", iloraz);
             Console.Write("\nNaciśnij dowolny klawisz aby zakończyć program ... ");
             Console.ReadKey();
         }
