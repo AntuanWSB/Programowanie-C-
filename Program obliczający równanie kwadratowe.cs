@@ -1,10 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace Program_1
 {
     class Program
     {
@@ -18,7 +14,7 @@ namespace ConsoleApplication1
             b = Double.Parse(Console.ReadLine());
             Console.Write("Podaj współczynnik c: ");
             c = Double.Parse(Console.ReadLine());
-            if (a == 0) Console.WriteLine("To nie jest równanie kwadratowe!!!");
+            if (a == 0) Console.WriteLine("\nTo nie jest równanie kwadratowe!!!");
             else
             {
                 Console.WriteLine("\nPostać równania: {0}x^2+{1}x+{2}=0", a, b, c);
@@ -40,9 +36,8 @@ namespace ConsoleApplication1
                     }
                 }
             }
-            Console.Write("\nNaciśnij dowolny klawisz aby zakończyć program ... ");
+            Console.Write("\n\nNaciśnij dowolny klawisz aby zakończyć program ... ");
             Console.ReadKey();
         }
-
     }
 }
