@@ -1,10 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApplication3
+namespace Program_1
 {
     class Program
     {
@@ -28,7 +24,7 @@ namespace ConsoleApplication3
                 else Console.WriteLine("\nTo nie jest trójkąt!!!");
             }
             else Console.WriteLine("\nDługości boków muszą być dodatnie!!!");
-            Console.Write("\nNaciśnij dowolny klawisz aby zakończyć program ... ");
+            Console.Write("\n\nNaciśnij dowolny klawisz aby zakończyć program ... ");
             Console.ReadKey();
         }
     }
