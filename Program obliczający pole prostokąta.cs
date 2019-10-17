@@ -6,9 +6,9 @@ namespace Program_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\n\nProgram obliczający pole prostokąta\n");
             try
             {
+                Console.WriteLine("\n\nProgram obliczający pole prostokąta\n");
                 double a, b, wynik;
                 Console.Write("\nPodaj w cm długość boku a: ");
                 a = double.Parse(Console.ReadLine());
